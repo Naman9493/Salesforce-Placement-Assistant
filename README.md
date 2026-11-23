@@ -69,3 +69,37 @@ Student Input → Agentforce → Flow Action → Eligibility Check → Result an
 
 ### 7. Agentforce Placement Assistant
 ![Agentforce Placement Assistant](screenshots/07-Agentforce-Placement-Assistant.png)
+
+
+## 🏗️ Project Architecture
+
+```mermaid
+flowchart TD
+    A[Student Records] --> C[Application Record]
+    B[Job Opening Records] --> C
+
+    C --> D[Record-Triggered Flow]
+    D --> E[Get Student Record]
+    D --> F[Get Job Opening Record]
+
+    E --> G{Eligibility Check}
+    F --> G
+
+    G -->|Eligible| H[Mark Application Eligible]
+    G -->|Not Eligible| I[Mark Application Not Eligible]
+
+    H --> J[Reports and Dashboards]
+    I --> J
+
+    K[Placement Assistant] --> L[Placement Eligibility Subagent]
+    L --> M[Check Placement Eligibility Action]
+```
+
+## 🔄 How It Works
+
+1. Student details and job opening requirements are stored in Salesforce.
+2. An application triggers the eligibility flow.
+3. The flow checks CGPA, branch, job status, and application deadline.
+4. The application is marked Eligible or Not Eligible.
+5. Reports and dashboards provide placement insights.
+6. Agentforce Placement Assistant provides conversational eligibility assistance.
