@@ -46,3 +46,26 @@ Student Input → Agentforce → Flow Action → Eligibility Check → Result an
 - Integration with the Student Placement Tracker org.
 - Student application tracking.
 - Placement officer dashboard integration.
+
+## 📸 Project Screenshots
+
+### 1. Student Record
+![Student Record](screenshots/01-Student-Record.png)
+
+### 2. Job Opening
+![Job Opening](screenshots/02-Job-Opening.png)
+
+### 3. Application Record
+![Application Record](screenshots/03-Application-Record.png)
+
+### 4. Placement Eligibility Flow
+![Eligibility Flow](screenshots/04-Placement-Eligibility-Flow.png)
+
+### 5. Placement Dashboard
+![Dashboard](screenshots/05-Placement-Dashboard.png)
+
+### 6. Permission Sets
+![Permission Sets](screenshots/06-Permission-Sets.png)
+
+### 7. Agentforce Placement Assistant
+![Agentforce](screenshots/07-Agentforce-Placement-Assistant.png)
