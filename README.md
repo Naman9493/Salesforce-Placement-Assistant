@@ -59,13 +59,13 @@ Student Input → Agentforce → Flow Action → Eligibility Check → Result an
 ![Application Record](screenshots/03-Application-Record.png)
 
 ### 4. Placement Eligibility Flow
-![Eligibility Flow](screenshots/04-Placement-Eligibility-Flow.png)
+![Placement Eligibility Flow](screenshots/04-Placement-Eligibility-Flow.png)
 
 ### 5. Placement Dashboard
-![Dashboard](screenshots/05-Placement-Dashboard.png)
+![Placement Dashboard](screenshots/05-Placement-Dashboard.png)
 
 ### 6. Permission Sets
 ![Permission Sets](screenshots/06-Permission-Sets.png)
 
 ### 7. Agentforce Placement Assistant
-![Agentforce](screenshots/07-Agentforce-Placement-Assistant.png)
+![Agentforce Placement Assistant](screenshots/07-Agentforce-Placement-Assistant.png)
